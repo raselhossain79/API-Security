@@ -45,7 +45,7 @@ knowing but don't need the same repetition.
 
 | # | Topic | Folder | Status | Pentest | Bug Bounty | Depth | Why |
 |---|---|---|---|---|---|---|---|
-| 0 | **API Fundamentals Notes** | `00_API_Fundamentals_Notes/` | ⬜ | 🔴 | 🔴 | 🔬 | Non-negotiable — every other topic assumes this is already understood |
+| 0 | **API Fundamentals Notes** | `00_API_Fundamentals_Notes/` | ⬜ | 🔴 | 🔴 | 🔬 | Prerequisite folder for API_Security_Notes/. Read this AFTER completing Web_Fundamentals_Notes/ and BEFORE starting any API Security topic. |
 | 1 | **API Recon & Endpoint Discovery** | `01_API_Recon_Endpoint_Discovery/` | ⬜ | 🔴 | 🔴 | 🔬 | Everything else starts here — you can't test what you can't find. Swagger leakage, JS mining, shadow endpoints. |
 | 2 | **BOLA — Broken Object Level Authorization** | `02_BOLA_IDOR/` | ⬜ | 🔴 | 🔴 | 🔬 | #1 most common API finding globally (40%+ of API attacks). Every API endpoint with an ID is a candidate. |
 | 3 | **Broken Authentication** | `03_Broken_Authentication/` | ⬜ | 🔴 | 🔴 | 🔬 | Token misuse, credential stuffing, missing MFA on sensitive endpoints. Foundation for almost every other finding. |
