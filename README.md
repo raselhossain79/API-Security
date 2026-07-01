@@ -45,6 +45,7 @@ knowing but don't need the same repetition.
 
 | # | Topic | Folder | Status | Pentest | Bug Bounty | Depth | Why |
 |---|---|---|---|---|---|---|---|
+| 0 | **API Fundamentals Notes** | `00_API_Fundamentals_Notes/` | ⬜ | 🔴 | 🔴 | 🔬 | Non-negotiable — every other topic assumes this is already understood |
 | 1 | **API Recon & Endpoint Discovery** | `01_API_Recon_Endpoint_Discovery/` | ⬜ | 🔴 | 🔴 | 🔬 | Everything else starts here — you can't test what you can't find. Swagger leakage, JS mining, shadow endpoints. |
 | 2 | **BOLA — Broken Object Level Authorization** | `02_BOLA_IDOR/` | ⬜ | 🔴 | 🔴 | 🔬 | #1 most common API finding globally (40%+ of API attacks). Every API endpoint with an ID is a candidate. |
 | 3 | **Broken Authentication** | `03_Broken_Authentication/` | ⬜ | 🔴 | 🔴 | 🔬 | Token misuse, credential stuffing, missing MFA on sensitive endpoints. Foundation for almost every other finding. |
@@ -110,8 +111,8 @@ API," you cover all 24 topics relevant to their stack. The pentest column is onl
 
 ```
 API_Security_Notes/
-├── README.md                              ← you are here
-├── API_Fundamentals_Notes/                ← START HERE (prerequisite folder)
+├── README.md                              
+├── 00_API_Fundamentals_Notes/               
 ├── 01_API_Recon_Endpoint_Discovery/
 ├── 02_BOLA_IDOR/
 ├── 03_Broken_Authentication/
@@ -136,19 +137,5 @@ API_Security_Notes/
 ├── 22_gRPC_Attacks/
 ├── 23_Microservices_Security/
 ├── 24_API_Automation_Tooling/
-└── 25_Real_World_API_Chaining/            ← capstone, build LAST
+└── 25_Real_World_API_Chaining/           
 ```
-
----
-
-## Conventions (same as main repo)
-
-- All notes written in English only.
-- Every command/payload broken down piece by piece — no "just run this" black boxes.
-- Every technique mapped to PortSwigger labs where they exist, in correct
-  difficulty-progression sequence. Where no PortSwigger lab exists, alternative
-  practice environments (crAPI, DVAPI, HTB) are referenced instead.
-- Real-world engagement notes in every file.
-- Where an automation tool exists for a topic, it gets its own dedicated section
-  with full flag-by-flag breakdown.
-- Where WAF/filter bypass is relevant, a dedicated bypass section is included.
