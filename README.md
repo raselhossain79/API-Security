@@ -110,7 +110,7 @@ API," you cover all 24 topics relevant to their stack. The pentest column is onl
 
 ```
 API_Security_Notes/
-├── README.md                              ← you are here
+├── README.md                              
 ├── 01_API_Recon_Endpoint_Discovery/
 ├── 02_BOLA_IDOR/
 ├── 03_Broken_Authentication/
