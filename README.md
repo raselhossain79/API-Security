@@ -114,8 +114,9 @@ API," you cover all 27 topics relevant to their stack. The pentest column is onl
 
 ```
 API_Security_Notes/
-├── README.md                              ← you are here
-├── API_Fundamentals_Notes/                ← START HERE (prerequisite folder)
+├── README.md                              
+├── Practice_Methodology_Notes
+├── API_Fundamentals_Notes/                
 ├── 01_API_Recon_Endpoint_Discovery/
 ├── 02_BOLA_IDOR/
 ├── 03_Broken_Authentication/
@@ -145,3 +146,8 @@ API_Security_Notes/
 ├── 27_API_Automation_Tooling/
 └── 28_Real_World_API_Chaining/            ← capstone, build LAST
 ```
+
+---
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
