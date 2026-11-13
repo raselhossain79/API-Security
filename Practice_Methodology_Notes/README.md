@@ -9,6 +9,7 @@ reference, it's the workflow for actually USING everything else you've built.
 |---|---|
 | `00_How_To_Practice.md` | The practice loop, how much payload coverage is "enough" per priority tier, mechanism-first mindset, troubleshooting order |
 | `01_Writeup_Template.md` | Copy-paste template for documenting every lab/session in real report format |
+| `02_Practice_Roadmap.md` | This file tells you where to practice each topic in the notes repo and in what order to follow. |
 
 ## Read This When
 
